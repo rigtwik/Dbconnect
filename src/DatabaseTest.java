@@ -21,7 +21,7 @@ public class DatabaseTest {
 		String url="jdbc:mysql://localhost:3306/demo_schema";
 		String username="root";
 		String password="root";
-		String sql="INSERT INTO users(idusers, name,email,salary) VALUES ('5', 'Yash', 'Yash@yash.com', '4000000')";
+		String sql="INSERT INTO users(idusers, name,email,salary) VALUES ('7', 'Yash', 'Yash@yash.com', '4000000')";
 		Connection con=null;
 		try {
 			Class c=Class.forName("com.mysql.cj.jdbc.Driver");
